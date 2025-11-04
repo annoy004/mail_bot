@@ -1,0 +1,104 @@
+# ==============================
+# 🚫 Node.js / Express (Backend)
+# ==============================
+
+# Node modules
+server/node_modules/
+client/node_modules/
+
+# Environment files (keep secrets safe)
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+google-vision-key.json
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Build outputs
+dist/
+build/
+.cache/
+.next/
+
+# PM2 / Process Manager
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Local Redis dump
+dump.rdb
+redis_data/
+redis.conf
+
+# ==============================
+# ⚛️ React (Frontend)
+# ==============================
+
+# React build outputs
+client/build/
+client/.cache/
+client/.eslintcache
+
+# Coverage reports (if using Jest)
+coverage/
+*.lcov
+
+# IDE & editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ==============================
+# 📸 Uploads / Local Files
+# ==============================
+uploads/
+public/temp/
+server/uploads/
+
+# Gmail token files (sensitive!)
+gmail_tokens.json
+
+# ==============================
+# 🔥 Optional — Docker / OS files
+# ==============================
+docker-compose.override.yml
+*.env.docker
+*.local
+*.log
+*.pid
+*.out
+*.err
+
+# Mac & Windows junk
+.DS_Store
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ==============================
+# ✅ Custom ignores
+# ==============================
+*.zip
+*.tar.gz
+*.env.*
+npm-debug.log*
+yarn.lock
+package-lock.json
